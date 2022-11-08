@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background: linear-gradient(45deg, #084d6e 1%, #836FFF 99%);
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    font-family: 'Manjari';
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Manjari';
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.botao:hover{
+    background-color: black;
+}
+
+#resultado{
+    width: 207px;
+    border-radius: 20px;
+    background-color: white;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}

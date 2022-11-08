@@ -1,0 +1,18 @@
+{
+    "short_name": "Calculadora V1",
+    "name": "Calculadora",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "theme-color": "#ffffff",
+    "background_color": "#000000",
+    "background-color": "#000000",
+    "description": "Este é um exemplo de webapp com PWA",
+    "icons": [
+        {
+            "src": "img/bat.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
